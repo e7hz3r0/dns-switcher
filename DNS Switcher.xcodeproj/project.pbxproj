@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA77815C1CCBF19B001CDC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77815B1CCBF19B001CDC66 /* AppDelegate.swift */; };
+		AA77815E1CCBF19B001CDC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA77815D1CCBF19B001CDC66 /* Assets.xcassets */; };
+		AA7781611CCBF19B001CDC66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA77815F1CCBF19B001CDC66 /* MainMenu.xib */; };
+		AA77816C1CCBF19B001CDC66 /* DNS_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77816B1CCBF19B001CDC66 /* DNS_SwitcherTests.swift */; };
+		AA7781771CCBF19B001CDC66 /* DNS_SwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7781761CCBF19B001CDC66 /* DNS_SwitcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7781681CCBF19B001CDC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7781501CCBF19B001CDC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7781571CCBF19B001CDC66;
+			remoteInfo = "DNS Switcher";
+		};
+		AA7781731CCBF19B001CDC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7781501CCBF19B001CDC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7781571CCBF19B001CDC66;
+			remoteInfo = "DNS Switcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7781581CCBF19B001CDC66 /* DNS Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNS Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA77815B1CCBF19B001CDC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA77815D1CCBF19B001CDC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7781601CCBF19B001CDC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA7781621CCBF19B001CDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7781671CCBF19B001CDC66 /* DNS SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA77816B1CCBF19B001CDC66 /* DNS_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_SwitcherTests.swift; sourceTree = "<group>"; };
+		AA77816D1CCBF19B001CDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7781721CCBF19B001CDC66 /* DNS SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNS SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7781761CCBF19B001CDC66 /* DNS_SwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNS_SwitcherUITests.swift; sourceTree = "<group>"; };
+		AA7781781CCBF19B001CDC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7781551CCBF19B001CDC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7781641CCBF19B001CDC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA77816F1CCBF19B001CDC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA77814F1CCBF19B001CDC66 = {
+			isa = PBXGroup;
+			children = (
+				AA77815A1CCBF19B001CDC66 /* DNS Switcher */,
+				AA77816A1CCBF19B001CDC66 /* DNS SwitcherTests */,
+				AA7781751CCBF19B001CDC66 /* DNS SwitcherUITests */,
+				AA7781591CCBF19B001CDC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7781591CCBF19B001CDC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7781581CCBF19B001CDC66 /* DNS Switcher.app */,
+				AA7781671CCBF19B001CDC66 /* DNS SwitcherTests.xctest */,
+				AA7781721CCBF19B001CDC66 /* DNS SwitcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA77815A1CCBF19B001CDC66 /* DNS Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				AA77815B1CCBF19B001CDC66 /* AppDelegate.swift */,
+				AA77815D1CCBF19B001CDC66 /* Assets.xcassets */,
+				AA77815F1CCBF19B001CDC66 /* MainMenu.xib */,
+				AA7781621CCBF19B001CDC66 /* Info.plist */,
+			);
+			path = "DNS Switcher";
+			sourceTree = "<group>";
+		};
+		AA77816A1CCBF19B001CDC66 /* DNS SwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA77816B1CCBF19B001CDC66 /* DNS_SwitcherTests.swift */,
+				AA77816D1CCBF19B001CDC66 /* Info.plist */,
+			);
+			path = "DNS SwitcherTests";
+			sourceTree = "<group>";
+		};
+		AA7781751CCBF19B001CDC66 /* DNS SwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7781761CCBF19B001CDC66 /* DNS_SwitcherUITests.swift */,
+				AA7781781CCBF19B001CDC66 /* Info.plist */,
+			);
+			path = "DNS SwitcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7781571CCBF19B001CDC66 /* DNS Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA77817B1CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS Switcher" */;
+			buildPhases = (
+				AA7781541CCBF19B001CDC66 /* Sources */,
+				AA7781551CCBF19B001CDC66 /* Frameworks */,
+				AA7781561CCBF19B001CDC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNS Switcher";
+			productName = "DNS Switcher";
+			productReference = AA7781581CCBF19B001CDC66 /* DNS Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7781661CCBF19B001CDC66 /* DNS SwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA77817E1CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS SwitcherTests" */;
+			buildPhases = (
+				AA7781631CCBF19B001CDC66 /* Sources */,
+				AA7781641CCBF19B001CDC66 /* Frameworks */,
+				AA7781651CCBF19B001CDC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7781691CCBF19B001CDC66 /* PBXTargetDependency */,
+			);
+			name = "DNS SwitcherTests";
+			productName = "DNS SwitcherTests";
+			productReference = AA7781671CCBF19B001CDC66 /* DNS SwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7781711CCBF19B001CDC66 /* DNS SwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7781811CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS SwitcherUITests" */;
+			buildPhases = (
+				AA77816E1CCBF19B001CDC66 /* Sources */,
+				AA77816F1CCBF19B001CDC66 /* Frameworks */,
+				AA7781701CCBF19B001CDC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7781741CCBF19B001CDC66 /* PBXTargetDependency */,
+			);
+			name = "DNS SwitcherUITests";
+			productName = "DNS SwitcherUITests";
+			productReference = AA7781721CCBF19B001CDC66 /* DNS SwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7781501CCBF19B001CDC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Strange Quark Software";
+				TargetAttributes = {
+					AA7781571CCBF19B001CDC66 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AA7781661CCBF19B001CDC66 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA7781571CCBF19B001CDC66;
+					};
+					AA7781711CCBF19B001CDC66 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA7781571CCBF19B001CDC66;
+					};
+				};
+			};
+			buildConfigurationList = AA7781531CCBF19B001CDC66 /* Build configuration list for PBXProject "DNS Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA77814F1CCBF19B001CDC66;
+			productRefGroup = AA7781591CCBF19B001CDC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7781571CCBF19B001CDC66 /* DNS Switcher */,
+				AA7781661CCBF19B001CDC66 /* DNS SwitcherTests */,
+				AA7781711CCBF19B001CDC66 /* DNS SwitcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7781561CCBF19B001CDC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA77815E1CCBF19B001CDC66 /* Assets.xcassets in Resources */,
+				AA7781611CCBF19B001CDC66 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7781651CCBF19B001CDC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7781701CCBF19B001CDC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7781541CCBF19B001CDC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA77815C1CCBF19B001CDC66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7781631CCBF19B001CDC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA77816C1CCBF19B001CDC66 /* DNS_SwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA77816E1CCBF19B001CDC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7781771CCBF19B001CDC66 /* DNS_SwitcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7781691CCBF19B001CDC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7781571CCBF19B001CDC66 /* DNS Switcher */;
+			targetProxy = AA7781681CCBF19B001CDC66 /* PBXContainerItemProxy */;
+		};
+		AA7781741CCBF19B001CDC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7781571CCBF19B001CDC66 /* DNS Switcher */;
+			targetProxy = AA7781731CCBF19B001CDC66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA77815F1CCBF19B001CDC66 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7781601CCBF19B001CDC66 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7781791CCBF19B001CDC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA77817A1CCBF19B001CDC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA77817C1CCBF19B001CDC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA77817D1CCBF19B001CDC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA77817F1CCBF19B001CDC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS Switcher.app/Contents/MacOS/DNS Switcher";
+			};
+			name = Debug;
+		};
+		AA7781801CCBF19B001CDC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNS Switcher.app/Contents/MacOS/DNS Switcher";
+			};
+			name = Release;
+		};
+		AA7781821CCBF19B001CDC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DNS Switcher";
+			};
+			name = Debug;
+		};
+		AA7781831CCBF19B001CDC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "DNS SwitcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.strange-quark.DNS-SwitcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DNS Switcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7781531CCBF19B001CDC66 /* Build configuration list for PBXProject "DNS Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7781791CCBF19B001CDC66 /* Debug */,
+				AA77817A1CCBF19B001CDC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA77817B1CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA77817C1CCBF19B001CDC66 /* Debug */,
+				AA77817D1CCBF19B001CDC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA77817E1CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS SwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA77817F1CCBF19B001CDC66 /* Debug */,
+				AA7781801CCBF19B001CDC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA7781811CCBF19B001CDC66 /* Build configuration list for PBXNativeTarget "DNS SwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7781821CCBF19B001CDC66 /* Debug */,
+				AA7781831CCBF19B001CDC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7781501CCBF19B001CDC66 /* Project object */;
+}
