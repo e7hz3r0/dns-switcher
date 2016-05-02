@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -79,6 +79,7 @@
 				AA7781591CCBF19B001CDC66 /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		AA7781591CCBF19B001CDC66 /* Products */ = {
 			isa = PBXGroup;
@@ -199,7 +200,7 @@
 				};
 			};
 			buildConfigurationList = AA7781531CCBF19B001CDC66 /* Build configuration list for PBXProject "DNS Switcher" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
